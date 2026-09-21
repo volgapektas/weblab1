@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevCore Solutions - Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>DevCore Solutions</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services & Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Contact Us</h2>
+      <p>
+        Please fill out the form below to request a service or ask a question.
+      </p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal & Contact Information</legend>
+
+          <p>
+            <label for="fullname">Full Name:</label><br />
+            <input type="text" id="fullname" name="fullname" required />
+          </p>
+
+          <p>
+            <label for="useremail">Email Address:</label><br />
+            <input type="email" id="useremail" name="useremail" required />
+          </p>
+
+          <p>
+            <label for="meetingdate">Preferred Meeting Date:</label><br />
+            <input type="date" id="meetingdate" name="meetingdate" required />
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Inquiry Details</legend>
+
+          <p>
+            <label for="service-type">Service Interested In:</label><br />
+            <select id="service-type" name="service-type">
+              <option value="web-dev">Web Development</option>
+              <option value="mobile-dev">Mobile App Development</option>
+              <option value="consulting">IT Consulting</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Your Message / Project Details:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="40"
+              placeholder="Type your message here..."
+              required
+            ></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Submit Request</button>
+          </p>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 DevCore Solutions. All rights reserved. Designed by John
+        Doe.
+      </p>
+    </footer>
+  </body>
+</html>
